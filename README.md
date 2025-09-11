@@ -63,10 +63,7 @@ also,even,time,state,hillaryclinton,media
 ### Scripts
 - **analisi_esplorativa.R**: script di r per l'EDA a partire dal dataset pre processato che si trova nel file csv "model_data1"
 - **applicazione metodi.R**: script di r per l'applicazione dei principali metodi utilizzati (confronto matrici di confusione e plot AIC)
-- **Termfrequency+wordclouds.ipynb**: Python script che contiene la lista delle 25 parole più frequenti e le due wordcloud per real e fake news 
 - **FakevsReal.ipynb**: Python script contiene sia l'EDA sia l'applicazione di alcuni modelli come la regressione logistica,gradient boosting, random forest e alberi di classificazione
-- **Bert.ipynb**: Python script relativo all'applicazione del modello Bert
-- **gini vs entropy.ipynb**: Python script relativo al confronto tra i due indici nell'albero di classificazione
 - **NLP.ipynb**: Python script con preprocessing (tokenization,stemming,lemmatization) e analis Nlp 
 
 
