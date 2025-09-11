@@ -8,6 +8,8 @@ Verranno esplorate alcune tecniche di apprendimento automatico per classificazre
 ### Report
 - **Tesi_2.pdf**: I risultati e le conclusioni vengono esposti nel pdf a partire dal capitolo 5
 
+## principali modelli utilizzati
+regressione logistica, decision trees, random forests, gradient boosting
 
 # Spiegazione dei dati utilizzati
 
@@ -57,11 +59,10 @@ trump,us,said,people,would,clinton,one,president,like,obama,election,donaldtrump
 also,even,time,state,hillaryclinton,media
 
 
-## contenuto delle cartelle
 
 ### Scripts
 - **analisi_esplorativa.R**: script di r per l'EDA a partire dal dataset pre processato che si trova nel file csv "model_data1"
-- **applicazione metodi.R**: script di r per l'applicazione dei principali metodi utilizzati 
+- **applicazione metodi.R**: script di r per l'applicazione dei principali metodi utilizzati (confronto matrici di confusione e plot AIC)
 - **Termfrequency+wordclouds.ipynb**: Python script che contiene la lista delle 25 parole più frequenti e le due wordcloud per real e fake news 
 - **FakevsReal.ipynb**: Python script contiene sia l'EDA sia l'applicazione di alcuni modelli come la regressione logistica,gradient boosting, random forest e alberi di classificazione
 - **Bert.ipynb**: Python script relativo all'applicazione del modello Bert
@@ -74,10 +75,10 @@ tutti i vari csv utilizzati per le analisi sono scaricabili dal seguente link:
 
 
 
-## modelli utilizzati
-regressione logistica, decision trees, random forests, gradient boosting
+
 
 ### Python Dependencies
+!pip install 
 nel file "pacchetti python da installare" sono presenti i pacchetti necessari per far girare i codici
 
 ### R Dependencies
@@ -86,16 +87,4 @@ nel file "pacchetti python da installare" sono presenti i pacchetti necessari pe
    - install.packages(c("package1", "package2", "package3"))
      sostituisci `"package1"`, `"package2"`, etc. con i pacchetti indicati nel file `pacchetti_r'
 
-1. **EDA (Exploratory Data Analysis):**
-     file "analisi esplorativa.R"
-     dove troverete anche l'acp delle bag of words e la rappresentazione t-sne
-  `
 
-3. **NLP**
-   - 
-
-4. **Model Training and Evaluation:**
-   - Finally, run the script for model training and evaluation:
-     ```bash
-     python models.py
-     ```
