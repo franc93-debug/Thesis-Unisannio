@@ -75,7 +75,7 @@ tutti i vari csv utilizzati per le analisi sono scaricabili dal seguente link:
 
 
 
-
+### al seguente link è possibile reperire la documentazione inerente ai dizionari ontologici: https://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm #
 
 ### Python Dependencies
 !pip install 
