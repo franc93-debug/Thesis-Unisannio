@@ -41,7 +41,7 @@ Per preparare i dati all’addestramento di modelli di Machine Learning è stato
    - `fear, anger, trust, surprise, positive, negative, sadness, disgust, joy, anticipation`  
    → rappresentano la presenza o proporzione di termini legati a queste emozioni nel testo  
 
-3. **Categorie tematiche** (parole chiave specifiche)  
+3. **Categorie tematiche** (topic)  
    - `PoliticaEstera, Attualita, CampagnaTrump, Russia, Repubblicani, Arresti, InvestigazioneClinton, Societa`  
 
 4. **Parole chiave rilevanti (bag-of-words mirato)**  
@@ -67,7 +67,7 @@ also,even,time,state,hillaryclinton,media
 - **FakevsReal.ipynb**: Python script contiene sia l'EDA sia l'applicazione di alcuni modelli come la regressione logistica,gradient boosting, random forest e alberi di classificazione
 - **Bert.ipynb**: Python script relativo all'applicazione del modello Bert
 - **gini vs entropy.ipynb**: Python script relativo al confronto tra i due indici nell'albero di classificazione
-- 
+- **NLP.ipynb**: Python script con preprocessing (tokenization,stemming,lemmatization) e analis Nlp 
 
 
 ### Dati
@@ -79,12 +79,12 @@ tutti i vari csv utilizzati per le analisi sono scaricabili dal seguente link:
 
 ### Python Dependencies
 !pip install 
-nel file "pacchetti python da installare" sono presenti i pacchetti necessari per far girare i codici
+in "pacchetti python da installare" sono presenti i pacchetti necessari per far girare i codici
 
 ### R Dependencies
 
  **Installare Pacchetti necessari su R:**
    - install.packages(c("package1", "package2", "package3"))
-     sostituisci `"package1"`, `"package2"`, etc. con i pacchetti indicati nel file `pacchetti_r'
+     sostituisci `"package1"`, `"package2"`, etc. con i pacchetti indicati in `pacchetti_r'
 
 
