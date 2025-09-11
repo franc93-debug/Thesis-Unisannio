@@ -14,70 +14,35 @@ I risultati e le conclusioni vengono esposti nel pdf allegato
 - **NLP.py**: Python script focused on natural language processing aspects of the project.
 
 ### Dati
+tutti i vari csv utilizzati per le analisi sono scaricabili dal seguente link:
 
 
 
 ### Report
-- **report.pdf**: la tesi 
+- **Tesi_2.pdf**: la tesi completa con le analisi e i risultati commentati
 
 ## modelli utilizzati
 regressione logistica, decision trees, random forests, gradient boosting
 
 ### Python Dependencies
-To install the required Python packages, ensure you have Python 3.8+ installed on your system, and then run the following command:
-```bash
-pip install -r requirementsPy.txt
-```
+nel file "pacchetti python da installare" sono presenti i pacchetti necessari per far girare i codici
 
 ### R Dependencies
 
-To install the required R packages, follow these steps:
+ **Installare Pacchetti necessari su R:**
+   - install.packages(c("package1", "package2", "package3"))
+     sostituisci `"package1"`, `"package2"`, etc. con i pacchetti indicati nel file `pacchetti_r'
 
-1. **Install R:**
-   - If you haven't already, download and install R from the [R Project website](https://www.r-project.org/).
+1. **EDA (Exploratory Data Analysis):**
+     file "analisi esplorativa.R"
+     dove troverete anche l'acp delle bag of words e la rappresentazione t-sne
+  `
 
-2. **Install Required Packages:**
-   - Open R or RStudio.
-   - Run the following command to install the required packages from CRAN:
-     ```R
-     install.packages(c("package1", "package2", "package3"))
-     ```
-     Replace `"package1"`, `"package2"`, etc. with the names of the R packages listed in the `requirementsR.txt` file.
+3. **NLP**
+   - 
 
-3. **Verify Installation:**
-   - Once the packages are installed, you can verify that they were installed correctly by loading them in R:
-     ```R
-     library(package1)
-     library(package2)
-     ```
-   - If no error messages are displayed, the packages were successfully installed.
-
-
-## Running the Project
-To run the project, execute the following commands in the specified order:
-
-1. **Exploratory Data Analysis (Optional):**
-   - If you wish to generate the graphs reported in the report, execute:
-     ```bash
-     python explorative_analysis.py
-     ```
-
-2. **NLP Analysis:**
-   - Execute the text mining analysis script:
-     ```bash
-     python NLP.py
-     ```
-
-3. **Model Training and Evaluation:**
+4. **Model Training and Evaluation:**
    - Finally, run the script for model training and evaluation:
      ```bash
      python models.py
      ```
-
-These commands will execute the Python scripts in the specified order, allowing you to perform exploratory data analysis, NLP analysis, and model training and evaluation for the project.
-
-## Results
-Detailed results can be viewed in the report.pdf, which includes discussion on methodology, model evaluation, and conclusions based on the analysis.
-
-## Authors
-Cecilia Peccolo
