@@ -1,7 +1,7 @@
 # Thesis-Unisannio
 my final work for master's degree
 
-# classificazione semantica dei testi mendiante tecniche di text mining e NLP
+# classificazione semantica dei testi mediante tecniche di text mining e NLP
 Questa repository contiene lo sviluppo e l'applicazione di alcuni modelli di Machine Learning utili al rilevamento e alla classificazione semantica di testi. 
 Verranno esplorate alcune tecniche di apprendimento automatico per classificazre in questo caso articoli di giornale e tweet in base alle loro caratteristiche, utilizzando sia linguaggio r che python mediante il software r-studio e la piattaforma google colab.
 I risultati e le conclusioni vengono esposti nel pdf allegato
