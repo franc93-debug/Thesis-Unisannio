@@ -64,7 +64,7 @@ also,even,time,state,hillaryclinton,media
 - **analisi_esplorativa.R**: script di r per l'EDA a partire dal dataset pre processato che si trova nel file csv "model_data1"
 - **applicazione metodi.R**: script di r per l'applicazione dei principali metodi utilizzati (confronto matrici di confusione e plot AIC)
 - **FakevsReal.ipynb**: Python script contiene sia l'EDA (wordcloud,top25 words ecc...) sia l'applicazione di alcuni modelli come la regressione logistica,gradient boosting, random forest e alberi di classificazione
-- **NLP.ipynb**: Python script con preprocessing (tokenization,stemming,lemmatization) e analis Nlp
+- **NLP.ipynb**: Python script con preprocessing (tokenization,stemming,lemmatization) e analisi Nlp
   
 
 
@@ -73,7 +73,7 @@ tutti i vari csv utilizzati per le analisi sono scaricabili dal seguente link:
 
 
 
-### al seguente link è possibile reperire la documentazione inerente ai dizionari ontologici: https://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm #
+### al seguente link è possibile reperire la documentazione sui dizionari ontologici: https://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm #
 
 ### Python Dependencies
 !pip install 
