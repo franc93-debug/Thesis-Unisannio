@@ -63,8 +63,10 @@ also,even,time,state,hillaryclinton,media
 ### Scripts
 - **analisi_esplorativa.R**: script di r per l'EDA a partire dal dataset pre processato che si trova nel file csv "model_data1"
 - **applicazione metodi.R**: script di r per l'applicazione dei principali metodi utilizzati (confronto matrici di confusione e plot AIC)
+- **pre processing.ipynb**: Python script che contiene la fase di pre processing : conversione maiuscole in minuscole,stemming,tokenization,stemming (N.B. Qui vengono creati tre file csv indispensabili per l'analisi NLP)
+- **NLP.ipynb**: Python script per analisi NLP 
 - **FakevsReal.ipynb**: Python script contiene sia l'EDA (wordcloud,top25 words ecc...) sia l'applicazione di alcuni modelli come la regressione logistica,gradient boosting, random forest e alberi di classificazione
-- **NLP.ipynb**: Python script con preprocessing (tokenization,stemming,lemmatization) e analisi Nlp
+
   
 
 
