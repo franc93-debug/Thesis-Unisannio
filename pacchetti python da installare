@@ -15,3 +15,5 @@ random
 re
 seaborn
 transformers
+sklearn.metrics
+sklearn.linear_model
