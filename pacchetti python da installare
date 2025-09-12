@@ -7,3 +7,11 @@ tensorflow
 keras
 seaborn
 rpy2
+nrclex
+sklearn (specificamente sklearn.feature_extraction.text ; sklearn.model_selection )
+scipy (specificamente scipy.sparse)
+gensim (specificamente gensim.corpora, gensim.utils, gensim.corpora.dictionary, gensim.models.ldamodel)
+random
+re
+seaborn
+transformers
