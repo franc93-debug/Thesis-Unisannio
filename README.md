@@ -71,7 +71,7 @@ also,even,time,state,hillaryclinton,media
 
 
 ### Dati
-tutti i vari csv utilizzati per le analisi sono scaricabili dal seguente link:
+tutti i vari csv utilizzati per le analisi sono scaricabili dal seguente link: https://drive.google.com/drive/folders/16D_we0kQoDy4pqJMBZ7jHb6vY0nn9ReD?usp=drive_link
 
 
 
